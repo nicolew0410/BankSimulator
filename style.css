@@ -1,0 +1,42 @@
+.backgroundColor{
+    background-color:#aebccf
+}
+.information1{
+    display: none;
+}
+.commonFont{
+    color:#c28882;
+    font-size:20px;
+    font-family:Monospace;
+    background-color:#f0d9d3;
+    border-style:double;
+    border-color:#dbafa4;
+    border-width:15px;
+    border-radius:20px;
+    line-height:40px;
+    text-align:center;
+}
+.clue1{
+    color:#7c9c84;
+    font-size:25px;
+    font-family:Copperplate;
+    background-color:#cadbce;
+    padding:40px;
+    border-style:double;
+    border-color:#a0bda7;
+    border-width:15px;
+    border-radius:20px;
+    line-height: 40px;
+    text-align:center;
+}
+.introBackground{
+    background-color:#f0efe9;
+    font-family:Optima;
+    border-style:double;
+    border-color:#cfccbc;
+    border-width:10px;
+    border-radius:20px;
+    text-align:center;
+    padding:10px;
+    line-height:20px;
+}

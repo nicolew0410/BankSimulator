@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body class = "backgroundColor">
+        <div class = "introBackground">
+            <p>Welcome to the Bank Simulator! For demonstration purposes, this program is designed to gain insight into what it looks like to manage your own bank account just like in real life!") </p> 
+            <br>
+            <p>"Welcome to the Aria Bank. Thank you for opening an account with us. Please answer the following questions to the best of your ability. After that, you will be able to access and input your financial information shortly.")</p>
+        </div>
+        <br>
+        
+        <p>Enter your full name for your account:  </p>
+        <input type="text" id="nameInput" oninput="fullName()">
+        <p id="fullNameInput"></p>
+        
+        <p>Enter your birth date Ex: 04/12/2010:  </p>
+        <input type="text" id="birthDateInput" oninput="birthDateFunction()">
+        <p id="birthInput"></p>
+        
+        <p>Enter your username for your account:  </p>
+        <input type="text" id="usernameInput" oninput="userFunction()">
+        <p id="userInput"></p>
+        
+        <p>Enter your password for your account:  </p>
+        <input type="text" id="passwordInput" oninput="passwordFunction()">
+        <p id="passInput"></p>
+        
+        <p id="thankMessage"> Thank you for answering our questions. We will now create a ID for you... </p>
+        
+        <input type = text class = "clue1"> 
+        <p class = "commonFont"> Thanks for coming to Aria Bank </p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
